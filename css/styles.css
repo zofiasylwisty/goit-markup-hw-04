@@ -442,3 +442,40 @@ figure {
   margin-left: 215px;
   margin-bottom: 94px;
 }
+.clients {
+  font-family: "Roboto";
+  font-weight: 700;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--fifth-color);
+  margin-bottom: 50px;
+  margin-left: 410px;
+  display: flex;
+  align-items: center;
+}
+.clients-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+  margin: 0;
+  margin-left: 215px;
+  align-items: center;
+}
+.logo-client {
+  fill: var(--disabled-icon);
+}
+.logo-client:hover,
+.logo-client:focus,
+.logo-client:active {
+  fill: var(--seventh-color);
+}
+
+.clients-element {
+  border: 1px solid var(--disabled-icon);
+  border-radius: 3px;
+}
+.clients-element:hover,
+.clients-element:focus,
+.clients-element:active {
+  border: 1px solid var(--seventh-color);
+}
