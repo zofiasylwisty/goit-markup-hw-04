@@ -15,7 +15,7 @@ body {
   --eight-color: #ffffff99;
   --shadow: #00000040;
   --disabled-icon: #afb1b8;
-  --circle-color: rgba(255, 255, 255, 0.1);
+  --icons-color: rgba(255, 255, 255, 0.1);
 }
 .blue-text {
   font-family: "Raleway";
@@ -300,15 +300,16 @@ li {
   margin-left: 70px;
 }
 .join-us {
-  color: var(--first-color);
-  text-transform: uppercase;
-  margin-top: 72px;
-  margin-bottom: 20px;
   font-family: "Roboto";
   font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 3%;
+  color: var(--first-color);
+  text-transform: uppercase;
+  margin-top: 72px;
+  margin-right: 955px;
+  margin-bottom: 20px;
 }
 .footer-icons-list {
   display: flex;
@@ -320,8 +321,8 @@ li {
   width: 44px;
   height: 44px;
   border-radius: 50px;
+  background-color: var(--icons-color);
   padding: 12px;
-  background-color: var(--circle-color);
 }
 .footer-icon-circle:hover,
 .footer-icon-circle:focus,
