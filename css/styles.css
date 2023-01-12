@@ -375,6 +375,40 @@ figure {
   padding-top: 30px;
   margin-bottom: 10px;
 }
+.social-media {
+  display: flex;
+}
+.social-media-element {
+  margin-top: 16px;
+}
+.social-media-element:not(:last-child) {
+  margin-right: 10px;
+}
+.social-icons {
+  fill: var(--disabled-icon);
+}
+.social-icons:hover,
+.social-icons:focus,
+.social-icons:active {
+  fill: var(--first-color);
+}
+.social-icons-link:hover,
+.social-icons-link:focus,
+.social-icons-link:active {
+  fill: var(--first-color);
+}
+.icon-circle {
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  padding: 12px;
+  background-color: var(--first-color);
+}
+.icon-circle:hover,
+.icon-circle:focus,
+.icon-circle:active {
+  background-color: var(--seventh-color);
+}
 
 .filters-list {
   display: flex;
@@ -478,4 +512,38 @@ figure {
 .clients-element:focus,
 .clients-element:active {
   border: 1px solid var(--seventh-color);
+}
+.social-list {
+  display: flex;
+}
+.social-list-items {
+  margin-top: 16px;
+}
+.social-list-items:not(:last-child) {
+  margin-right: 10px;
+}
+.social-icons {
+  fill: var(--disabled-icon);
+}
+.social-icons:hover,
+.social-icons:focus,
+.social-icons:active {
+  fill: var(--first-color);
+}
+.social-icons-link:hover,
+.social-icons-link:focus,
+.social-icons-link:active {
+  fill: var(--first-color);
+}
+.icon-circle {
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  padding: 12px;
+  background-color: var(--first-color);
+}
+.icon-circle:hover,
+.icon-circle:focus,
+.icon-circle:active {
+  background-color: var(--seventh-color);
 }
