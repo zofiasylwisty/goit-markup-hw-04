@@ -177,19 +177,24 @@ li {
   text-align: center;
   display: flex;
 }
-
+.list-icon {
+  background-color: var(--second-color);
+  width: 270;
+  height: 120;
+  border-radius: 4px;
+}
 .latin-list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.small-header {
-  font-family: "Roboto";
+.latin-title {
+  font-family: Roboto;
   font-size: 14px;
   font-weight: 700;
-  line-height: 1.87;
+  line-height: 1.14;
   color: var(--fifth-color);
-  margin-left: -40px;
+  margin-bottom: 10px;
 }
 .latin-list > .small-header:not(:last-child) {
   margin-right: 30px;
