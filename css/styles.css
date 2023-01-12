@@ -112,12 +112,9 @@ li {
 .contact:active {
   color: var(--seventh-color);
 }
-.icons-header:hover,
-.icons-header:focus,
-.icons-header:active {
-  color: var(--seventh-color);
+.icons-header:hover {
+  fill: #2196f3;
 }
-
 .icons-header {
   fill: var(--disabled-icon);
   margin-right: 10px;
