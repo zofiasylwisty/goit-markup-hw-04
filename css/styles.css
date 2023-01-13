@@ -313,12 +313,14 @@ li {
   letter-spacing: 3%;
   color: var(--first-color);
   text-transform: uppercase;
-  margin-top: 72px;
+  margin-top: 22px;
   margin-right: 955px;
   margin-bottom: 20px;
 }
 .footer-icons-list {
   display: flex;
+  padding-left: 0;
+  padding-right: 0;
 }
 .icon-footer {
   fill: var(--first-color);
