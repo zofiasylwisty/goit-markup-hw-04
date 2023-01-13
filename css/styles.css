@@ -480,12 +480,14 @@ figure {
 }
 .clients {
   font-family: "Roboto";
+  font-size: 36px;
   font-weight: 700;
   line-height: 1.16;
   text-align: center;
   color: var(--fifth-color);
   margin-bottom: 50px;
-  margin-left: 410px;
+  margin-left: 510px;
+  padding-right: 0;
   display: flex;
   align-items: center;
 }
@@ -494,7 +496,7 @@ figure {
   flex-wrap: nowrap;
   gap: 30px;
   margin: 0;
-  margin-left: 215px;
+  margin-left: -30px;
   align-items: center;
 }
 .logo-client {
