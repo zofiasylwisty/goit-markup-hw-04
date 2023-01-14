@@ -410,7 +410,9 @@ figure {
 .icon-circle:active {
   background-color: var(--seventh-color);
 }
-
+.icon-circle:hover > svg {
+  fill: #ffffff;
+}
 .filters-list {
   display: flex;
   flex-direction: row;
@@ -515,12 +517,21 @@ figure {
 
 .clients-element {
   border: 1px solid var(--disabled-icon);
+  fill: var(--disabled-icon);
   border-radius: 3px;
 }
 .clients-element:hover,
 .clients-element:focus,
 .clients-element:active {
   border: 1px solid var(--seventh-color);
+}
+.logo-client:hover,
+.logo-client:focus,
+.logo-client:active {
+  fill: var(--seventh-color);
+}
+.clients-link:hover > svg {
+  fill: #2196f3;
 }
 .social-media {
   display: flex;
