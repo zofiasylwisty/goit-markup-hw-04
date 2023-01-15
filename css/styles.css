@@ -73,6 +73,16 @@ body {
 .contact-list > .contact-address:not(:last-child) {
   margin-right: 50px;
 }
+
+.contact:hover,
+.contact:focus,
+.contact:active {
+  color: var(--seventh-color);
+}
+.contact:hover > svg {
+  fill: #2196f3;
+}
+
 .logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -95,11 +105,7 @@ li {
   text-decoration: none;
   color: var(--fifth-color);
 }
-.link:hover,
-.link:focus,
-.link:active {
-  color: var(--seventh-color);
-}
+
 .contact {
   font-family: "Roboto";
   font-size: 14px;
@@ -107,14 +113,6 @@ li {
   line-height: 1.14;
   text-decoration: none;
   color: var(--third-color);
-}
-.contact:hover,
-.contact:focus,
-.contact:active {
-  color: var(--seventh-color);
-}
-.icons-header:hover {
-  fill: #2196f3;
 }
 .icons-header {
   fill: var(--disabled-icon);
@@ -506,18 +504,18 @@ figure {
   margin-left: -30px;
   align-items: center;
 }
-.logo-client {
+
+.clients-icon {
   fill: var(--disabled-icon);
 }
-.logo-client:hover,
-.logo-client:focus,
-.logo-client:active {
+.clients-icon:hover,
+.clients-icon:focus,
+.clients-icon:active {
   fill: var(--seventh-color);
 }
 
 .clients-element {
   border: 1px solid var(--disabled-icon);
-  fill: var(--disabled-icon);
   border-radius: 3px;
 }
 .clients-element:hover,
@@ -529,9 +527,6 @@ figure {
 .logo-client:focus,
 .logo-client:active {
   fill: var(--seventh-color);
-}
-.clients-link:hover > svg {
-  fill: #2196f3;
 }
 .social-media {
   display: flex;
